@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img.fundo {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+img.iphone {
+    position: fixed;
+    width: 24vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img.tela {
+    position: fixed;
+    width: 21vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#botao {
+    position: fixed;
+    border-radius: 50%;
+    width: 4vw;
+    bottom: 12.5vw;
+    left: 95.5vw;
+    top: 2vw;
+}
+
+img.home {
+    width: 4vw;
+    bottom: 12.5vw;
+    left: 95.5vw;
+    top: 2vw;
+}
